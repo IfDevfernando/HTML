@@ -1,0 +1,27 @@
+@charset "UTF-8";
+
+body{
+    background-image: linear-gradient(to top,#0AABFA,#0A67F0);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+h2.tg{
+    color:black;
+    background-color: #0AFAC6 ;
+    border-radius: 10px;
+    text-align: center;
+}
+h1{
+    text-align: center;
+    color: #0AF07E;
+    text-shadow: 2px 2px 2px black;
+}
+:active{
+    color: red;
+}
+ul.h:hover{
+    color: chocolate;
+}
+a:hover{
+    color: darkcyan;
+}

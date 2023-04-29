@@ -1,0 +1,21 @@
+@charset  "UTF-8";
+
+h2.vs{
+    color: aquamarine;
+    text-shadow: 2px 2px 2px black;
+    font-weight: bold;
+}
+h1{
+    text-align: center;
+    background-color: coral;
+}
+body{
+    background-color: blanchedalmond;
+    font-family: 'Courier New', Courier, monospace;
+    margin: auto;
+    
+}
+h2{
+    color: blue;
+    text-shadow: 5px 5px 5px black;
+}

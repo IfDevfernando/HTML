@@ -1,0 +1,22 @@
+@charset "UTF-8";
+
+body{
+
+    background-color: greenyellow;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h1{
+    color: red;
+}
+h1#principal{
+    text-align: center;
+    color: black;
+}
+h2{
+    color: brown;
+}
+h2#vs{
+    text-align: center;
+    color: blueviolet;
+}
