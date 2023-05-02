@@ -3,18 +3,21 @@
 main img{
     width: 100%;
 }
-div{
+header{
     background-color: black;
     color: white;
     padding: 40px;
     margin: auto;
 }
-div >h1{
+header >h1{
     text-align: center;
     padding-top: 50px;
-    margin: 0px;   
+    margin: 0px;
+    font-variant: small-caps; 
+    font-size: 8vw;
+    
 }
-div > h3{
+header > h3{
     text-align: center;
     margin: 0px;
 }
@@ -37,21 +40,25 @@ a{
     text-decoration: none;
     color: grey;
 }
+a:hover{
+    color: red;
+    text-decoration: underline;
+}
 div.box01{
     background-color: rgb(51, 50, 50);
    
     padding: 50px;
-    margin: 10px;
-    text-align: center;
+    width: 300px;
+    text-align: left;
     opacity: 0.7;
     
 }
 div.box02{
     background-color: rgb(51, 50, 50);
    
-    padding: 50px;
-    margin: 10px;
-    text-align: center;
+    padding: 30px;
+    width: 300px;
+    text-align: left;
     opacity: 0.7;
     
 }
