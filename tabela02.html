@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tabela grande</title>
+    <style>
+        table{
+            width: 300px;
+            border-collapse: collapse;
+           
+        }
+        th,td{
+            border: 2px solid black;
+            padding: 10px;
+        }
+        thead,tfoot{
+            padding: 5px;
+            background-color: grey;
+            color:white;
+        }
+        tbody > tr:nth-child(odd){
+            background-color: lightgrey;
+            color: white;
+        }/* efeito zebrado da tabela*/
+        
+    </style>
+
+    
+</head>
+<body>
+    <h1>tabela grande</h1>
+    <table>
+        <caption> população unidades federativas</caption><!--legenda da tabela-->
+        <thead>
+            <th>estado</th>
+            <th>população</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td>são paulo</td>
+                <td>45 919 046</td>
+            </tr>
+            <tr>
+                <td>rio de janeiro</td>
+                <td>46 919 045</td>
+            </tr>
+            <tr>
+                <td>minas gerais</td>
+                <td>58 558 26</td>
+            </tr>
+            <tr>
+                <td>bahia</td>
+                <td>69 263 14</td>
+            </tr>
+            <tr>
+                <td>ceara</td>
+                <td>45 266 32</td>
+            </tr>
+            <tr>
+                <td>amapa</td>
+                <td>11 256 89</td>
+            </tr>
+            <tr>
+                <td>porto alegre</td>
+                <td>22 458 74</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <th>total habitantes</th>
+            <td>0000</td>
+        </tfoot>
+    </table>
+</body>
+</html>
