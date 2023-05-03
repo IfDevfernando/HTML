@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tabelas</title>
+    <style>
+        table{
+            width: 300px;
+            height: 200px;
+            border-collapse: collapse;
+        }
+        td{
+            border: 2px solid black;
+            vertical-align: bottom;
+
+        }
+        .numero{
+            text-align: right;
+        }
+        .cor{
+            background-color: yellow;
+        }
+        
+    </style>
+</head>
+<body>
+    <h1>minha promeira tabela</h1>
+    <!--herarquia de tabela 
+        tabela=tabela
+            table ro= linha da tabela
+                table haader=cabeçalho
+                    table data=dado da tabela-->
+    <table>
+        <tr><!--primeira linha-->
+            <td>A1</td>
+            <td>B1</td>
+            <td>C1</td>
+        </tr>
+        <tr><!--segunda linha-->
+            <td>a2</td>
+            <td class="cor">b2</td>
+            <td class="numero">c2</td>
+        </tr>
+        <tr><!--terceira linha-->
+            <td class="numero">a3</td>
+            <td>b3</td>
+            <td>c3</td>
+        </tr>
+    </table>
+</body>
+</html>
