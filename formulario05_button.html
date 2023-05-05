@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Button</title>
+    <style>
+        fieldset{
+            background-color: rgb(243, 184, 161);
+        }
+    </style>
+</head>
+<body>
+    <form action="cadastro.php" method="get" >
+        <p>
+            <fieldset>
+                <legend>Sex</legend>
+                <p>
+                    <label for="if"> Femme</label>
+                    <input type="radio" name="femme" id="if">
+                    <label for="im"> Men </label>
+
+                    <input type="radio" name="femme" id="im">
+                </p>
+            </fieldset>
+            <fieldset>
+                <legend>Esport</legend>
+                <p>
+                    <label for="ibask"> Basketball</label>
+                    <input type="checkbox" name="bas" id="ibask">
+                </p>
+                <p>
+                    <label for="ifut"> Soccer</label>
+                    <input type="checkbox" name="fut" id="ifut" checked>
+                </p>
+                <p>
+                    <label for="ivolei"> Volei</label>
+                    <input type="checkbox" name="volei" id="ivolei">
+                </p>
+                
+            </fieldset>
+            <input type="submit" value="Send">
+            <input type="reset" value="Clear">
+        </p>
+    </form>
+</body>
+</html>
