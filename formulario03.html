@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <form action="cadastro.php" autocomplete="on"> 
+        <p>
+            <label for="iuser"> Username:</label>
+            <input type="text" name="use" id="iuse" autocomplete="username" placeholder="Username" maxlength="10" minlength="5">
+        </p>
+        
+        <p>
+            <label for="ipass"> Password:</label>
+            <input type="password" name="pass" id="ipass" required autocomplete="current-password" placeholder="Password" minlength="5" maxlength="10" step="0.5">
+        </p>
+        
+        <p>
+            <label for="imedia"></label>
+            <input type="number" name="media" id="imedia" min="5" max="10" placeholder="Media">
+        </p>
+       
+        <input type="color" name="" id="">
+        <input type="month" name="" id="">
+
+        <input type="time" name="" id="">
+        <input type="date" name="" id="">
+        
+        <p><input type="submit" value="Send">
+            <input type="reset" value="Clear">
+        </p>
+    </form>
+</body>
+</html>
