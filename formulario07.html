@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p>
+        <label for="ilest">Digite o Estado</label>
+        <select name="estado" id="ilest">
+            <optgroup label="estado">
+                <option value="" >---select--</option>
+                <option value="RJ">rio de janeiro</option>
+                <option value="SP">sao paulo</option>
+                <option value="PA">pernambuco</option>
+               
+            </optgroup>
+        </select>
+            <p>
+            <select name="cidade" id="icid">
+                <optgroup label="cidade">
+                    <option value="ni">nova iguaçu</option>
+                    <option value="ba">belford roxo</option>
+                    <option value="ilha">ilha do governador</option>
+                </optgroup>
+            </select>
+                </p>
+                <p>
+                    <label for="iprof">escolha</label>
+                    <input type="text" name="porf" id="iprof" list="list">
+                    <datalist id="list">
+                        <option value="">engenheiro</option>
+                        <option value="">desenvolvedor</option>
+                        <option value="">professor</option>
+                    </datalist>
+                    
+                </p>
+                <p>
+                    <label for="imsg">Digite a mensagem</label>
+                    <textarea name="msg" id="imsg" cols="30" rows="10"></textarea>
+                </p>
+        
+</body>
+</html>
