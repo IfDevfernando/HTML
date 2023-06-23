@@ -1,0 +1,66 @@
+/*  space-betwen: serve para daicionar espaço maior entre os itens
+space_arrowd:adiciona espaço entre os itens
+a regra flex sempre e aplicada no elemento pai,nesse caso a div(container) 
+ */
+ body{
+    padding-bottom: 500px;
+ }
+
+.container{
+    width: 400px;
+    height: 400px;
+    padding: 5px;
+    border: 1px solid red;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    /*  quebra as caixas para não espremer o conteudo em uma unica linha*/
+    flex-wrap: wrap;
+   
+    
+}
+.item{
+    width: 50px;
+    height: 50px;
+    padding: 20px;
+    text-align: center;
+    border: 1px solid #222;
+    text-align: center;
+    font-size: 2rem;
+}
+.box{
+    background-color:lightcoral;
+    height: 50px;
+    padding: 20px;
+    text-align: center;
+    border: 1px solid #222;
+    text-align: center;
+    font-size: 2rem;
+    /* e um tipo de prioridade que pode ser dada em um elemento individual
+    faz com que ele seja sempre o ulltimo a perder o seu tamnho 
+    que foi atribuido em pixel */
+    flex-basis: 30px;
+    /* essa propriedade e a apbreviação da (grow,shrink,basis) definido nessa ordem*/
+    flex: 1 1 50px;
+}
+/*#item-1{
+    flex-grow: 2;
+}
+#item-2,
+#item-3{
+    flex-grow: 1;
+}
+#item-3{
+    /* essa propriedade ja faz com que esse elemento seja o primeiro a perder suas propoções e pixel */
+ /*   flex-shrink: 100px;
+} */
+/* troca de ordem o items */
+#item-2{
+    order: 1;
+}
+#item-3{
+    order: 2;
+}
+#item-1{
+    order: 3;
+}

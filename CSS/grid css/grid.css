@@ -1,0 +1,67 @@
+
+.container{
+    border: 1px solid red;
+    padding: 15px;
+    background-color: #222;
+    display: grid;
+    /* configuração de cada coluna  */
+    grid-template-columns: 50px auto 10%; 
+    
+    /* aqui estou definindo rows de forma padrão  */
+    height: 35vh;
+    /* aqui vou mudar cada uma delas atraves do grid */ 
+    grid-template-rows: 30% 20% 25%;
+    gap:5px;
+
+    
+}
+div{
+    padding: 10px;
+    border: 1px solid #ccc;
+    background-color: lightcoral;
+}  
+
+.template{
+    border: 1px solid red;
+    padding: 15px;
+    background-color: #222;
+    display: grid;
+    gap: 5px;
+    grid-template-areas: 
+    'header header header'
+    'sidebar content content'
+    'footer footer footer';
+}
+#header{
+    grid-area: header;
+}
+#sidebar{
+    grid-area: sidebar;
+    height: 50vh;
+}
+#content{
+    grid-area: content;
+    height: 50vh;
+
+}
+#footer{
+    grid-area: footer;
+}
+.container-x{
+    border: 1px solid red;
+    padding: 15px;
+    background-color: #222;
+    display: grid;
+    gap: 5px;
+    grid-template-columns: auto auto auto;
+    height: 50vh;
+    /* alinhamento horizontal*/
+    justify-content: center;
+    /* alinhamento vertical*/
+    align-items: center;
+}
+div{
+    padding: 10px;
+    border: 1px solid #ccc;
+    background-color: lightcoral;
+}  
